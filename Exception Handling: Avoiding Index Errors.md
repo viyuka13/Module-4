@@ -11,8 +11,15 @@ To write a Python program that handles an **IndexError** when trying to access a
 3. Print the result based on whether the index access succeeds or fails.
 
 ## 🧾 Program
-Add code here
-
+      list1 = [10, 20, 30, 40]
+      
+      try:
+          print(list1[5])
+      except IndexError:
+          print("You're out of list range")
 ## Output
+![image](https://github.com/user-attachments/assets/5ffe33da-b2f1-417a-8f7f-3305db252c93)
+
 
 ## Result
+The Python program using a try-except block to handle an out-of-range list index has been executed successfully, and the output has been verified.
